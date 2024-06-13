@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>DIC Café</title>
+    <!-- Enlaces a los archivos CSS para normalizar y estilizar -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Encabezado del sitio -->
+    <header id="top">
+        <nav class="header_nav">
+            <!-- Logo del sitio -->
+            <a href="index.html"><img src="images/sample_logo_k.png" alt="Logo DIC Café"></a>
+            <!-- Navegación principal -->
+            <ul class="global_nav">
+                <a href="index.html" class="global_nav_item">
+                    <li>Inicio</li>
+                </a>
+                <a href="#" class="global_nav_item">
+                    <li>Menú</li>
+                </a>
+                <a href="contact.html" class="global_nav_item">
+                    <li>Contacto</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección del formulario de contacto -->
+    <section class="section_inner">
+        <div class="section_title">
+            <h1>Contacto</h1>
+            <p>Contáctanos</p>
+        </div>
+        <!-- Formulario de contacto -->
+        <form action="#" method="POST">
+            <table class="contact">
+                <tr class="contact_line">
+                    <td class="contact_sing"><label for="name">Nombre</label></td>
+                    <td class="contact_input"><input type="text" name="name" id="name"></td>
+                </tr>
+                <tr class="contact_line">
+                    <td class="contact_sing"><label for="phonenumber">Datos de contacto</label></td>
+                    <td class="contact_input"><input type="tel" name="phonenumber" id="phonenumber"></td>
+                </tr>
+                <tr class="contact_line">
+                    <td class="contact_sing"><label for="region">Región de residencia</label></td>
+                    <td>
+                        <select id="region">
+                            <option value="0">Por favor, seleccione.</option>
+                            <option value="1">Hokkaido</option>
+                            <option value="2">Tohoku (las seis prefecturas más septentrionales de Honshu)</option>
+                            <option value="3">Kantou (mitad oriental de Japón, incluido Tokio)</option>
+                            <option value="4">Centro</option>
+                            <option value="5">Kinki (región alrededor de Osaka, Kioto y Nara)</option>
+                            <option value="6">Chugoku y Shikoku</option>
+                            <option value="7">Kyushu (la más meridional de las cuatro islas principales de Japón)
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="contact_content">
+                    <td class="contact_sing"><label for="content">Contenido</label></td>
+                    <td class="contact_input"><textarea name="content" id="content"></textarea></td>
+                </tr>
+            </table>
+            <!-- Botones para enviar y reiniciar el formulario -->
+            <div class="contact_btn_area">
+                <button type="reset" class="contact_btn reset_btn">Reiniciar</button>
+                <button type="submit" class="contact_btn submit_btn">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Pie de página del sitio -->
+    <footer>
+        <nav>
+            <!-- Navegación del pie de página -->
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Menú</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="index.html"><img src="images/sample_logo_w.png" class="footer_logo"
+                            alt="Logo DIC Café"></a></li>
+            </ul>
+        </nav>
+        <!-- Derechos de autor -->
+        <div class="copyright">
+            <p class="footer_right">&copy;DIVIC Corp. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

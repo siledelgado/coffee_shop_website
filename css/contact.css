@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* Establece la codificación de caracteres a UTF-8 */
+
+/* Estilo para el sub encabezado, agregando espacio inferior */
+.sub_header {
+    padding-bottom: 100px;
+}
+
+/* Estilo para la tabla de contacto, establece el ancho y el margen inferior */
+.contact {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Estilo para cada fila de la tabla de contacto, estableciendo altura y alineación vertical */
+.contact_line {
+    height: 50px;
+    line-height: 50px;
+}
+
+/* Estilo para las celdas de la tabla que contienen las etiquetas (labels) de los campos de entrada */
+.contact_sign {
+    width: 25%;
+    background: #beb9b7;
+    border: solid 1px #beb9b7;
+    text-align: left;
+    padding: 0 20px;
+}
+
+/* Estilo para las celdas de la tabla que contienen los campos de entrada */
+.contact_input {
+    width: 75%;
+    border: solid 1px #beb9b7;
+}
+
+/* Estilo específico para las filas que contienen áreas de texto */
+.contact_content {
+    height: 100px;
+}
+
+/* Estilo para los campos de entrada, selectores y áreas de texto dentro de las celdas de entrada */
+.contact_input input,
+select,
+textarea {
+    border: none;
+    width: 99%;
+}
+
+/* Estilo específico para los campos de entrada y selectores, estableciendo la altura */
+.contact_input input,
+select {
+    height: 50px;
+}
+
+/* Estilo específico para las áreas de texto, estableciendo la altura */
+.contact_input textarea {
+    height: 100px;
+}
+
+/* Estilo para el área de botones de contacto, centrando los botones y agregando espacio de padding */
+.contact_btn_area {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+/* Estilo básico para los botones de contacto, estableciendo padding y eliminando bordes */
+.contact_btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Estilo para añadir margen entre los botones de contacto */
+.contact_btn+.contact_btn {
+    margin-left: 10px;
+}
+
+/* Estilo específico para el botón de envío, estableciendo color de fondo y de texto */
+.submit_btn {
+    background: #9852a5;
+    color: #fff;
+}
+
+/* Estilo específico para el botón de reinicio, estableciendo color de fondo */
+.reset_btn {
+    background: #e6e6e6;
+}
